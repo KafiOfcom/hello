@@ -5,7 +5,7 @@ const app = express();
 
 // Proxy middleware configuration
 const proxyOptions = {
-  target: 'http://localhost:8080', // Change to your server's actual URL
+  target: 'wa-trustnsafety-tech-playground.azurewebsites.net', // Change to your server's actual URL
   changeOrigin: true,
 };
 
